@@ -89,6 +89,7 @@ div{
 }
 ::-webkit-scrollbar{
     width: 5px;
+	height: 5px;
 }
 
 ::-webkit-scrollbar-track{
@@ -97,12 +98,12 @@ div{
 }
 
 ::-webkit-scrollbar-thumb{
-    background: rgb(0, 255, 150);
+    background: var(--colorOrange);
     border-radius: 20px;
 }
 
 ::-webkit-scrollbar-button{
-    height: 10px;
+    height: 5px;
     padding: none;
     margin: none;
 }
